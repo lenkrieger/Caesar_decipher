@@ -76,8 +76,8 @@
                     {
                         if (j + tempShift == 25)
                         {
-                            tempShift = 0;
-                            letters2[i] = letters[j + shift + 1];
+                            j = 0;
+                            letters2[i] = letters[j + tempShift + 1];
                             string lettersAsString = textToLetters.GetLettersAsString();
                             Console.WriteLine($"{lettersAsString}");
                         }
