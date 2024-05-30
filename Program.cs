@@ -12,8 +12,7 @@
                 Console.WriteLine("--------------------");
                 Console.WriteLine("1. Encrypt");
                 Console.WriteLine("2. Bruteforce");
-                Console.WriteLine("3. ###Debug/Show alphabet###");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("3. Exit");
                 var choice = Console.ReadLine();
                 Console.WriteLine("--------------------");
                 switch (choice)
@@ -27,11 +26,6 @@
                         break;
 
                     case "3":
-
-                        textToLetters.Printer();
-                        break;
-
-                    case "4":
                         return;
                 }
             }
@@ -39,7 +33,7 @@
 
         public static void Encrypt(TextToLetters textToLetters, Alphabet alphabet)
         {
-            List<char> letters = alphabet.Letters; // 
+            List<char> letters = alphabet.Letters; //
             List<char> letters2 = textToLetters.Letters2;
             Console.WriteLine("What you want to encrypt: ");
             string text = Console.ReadLine();
@@ -51,43 +45,33 @@
             {
                 char tempLetters2 = letters2[i];
                 int j = 0;
-                int tempShift = shift;
+                int tempShift = shift + 1;
                 do
                 {
                     if (tempLetters2 == letters[j])
                     {
                         if (j == 0)
                         {
+                            letters2[i] = letters[j + tempShift - 1];
+                            string lettersAsString = textToLetters.GetLettersAsString();
+                            Console.WriteLine($"{lettersAsString}");
+                            break;
+                        }
+                        else
+                        {
                             letters2[i] = letters[j + tempShift];
                             string lettersAsString = textToLetters.GetLettersAsString();
                             Console.WriteLine($"{lettersAsString}");
                             break;
                         }
-                        else
-                        {
-                            letters2[i] = letters[j + tempShift + 1];
-                            string lettersAsString = textToLetters.GetLettersAsString();
-                            Console.WriteLine($"{lettersAsString}");
-                            break;
-                        }
-                        
                     }
                     else
                     {
-                        if (j + tempShift == 25)
-                        {
-                            j = 0;
-                            letters2[i] = letters[j + tempShift + 1];
-                            string lettersAsString = textToLetters.GetLettersAsString();
-                            Console.WriteLine($"{lettersAsString}");
-                        }
-                        else
-                        {
-                            letters2[i] = letters[j + tempShift + 1];
-                            string lettersAsString = textToLetters.GetLettersAsString();
-                            Console.WriteLine($"{lettersAsString}");
-                        }
+                        letters2[i] = letters[j + tempShift];
+                        string lettersAsString = textToLetters.GetLettersAsString();
+                        Console.WriteLine($"{lettersAsString}");
                     }
+
                     j = j + 1;
                 }
                 while (tempLetters2 != letters[j]);
@@ -107,10 +91,15 @@
 
         public void AlphabetBuilder() // add letters in alphabetical order in list
         {
-            for (char c = 'a'; c <= 'z'; c++)
+            int i = 0;
+            do
             {
-                Letters.Add(c);
-            }
+                for (char c = 'a'; c <= 'z'; c++)
+                {
+                    Letters.Add(c);
+                }
+                i++;
+            } while (i < 2);
         }
 
         public void Printer()
