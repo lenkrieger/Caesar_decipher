@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming Projects\\DecoderCesar\\DecoderCesar\\DecoderCesar.csproj",
-      "projectName": "DecoderCesar",
-      "projectPath": "D:\\Programming Projects\\DecoderCesar\\DecoderCesar\\DecoderCesar.csproj",
+      "projectUniqueName": "D:\\Programming Projects\\DecoderCesar\\DecoderCesar\\DecoderCeasar.csproj",
+      "projectName": "DecoderCeasar",
+      "projectPath": "D:\\Programming Projects\\DecoderCesar\\DecoderCesar\\DecoderCeasar.csproj",
       "packagesPath": "C:\\Users\\Sviatoslav\\.nuget\\packages\\",
       "outputPath": "D:\\Programming Projects\\DecoderCesar\\DecoderCesar\\obj\\",
       "projectStyle": "PackageReference",

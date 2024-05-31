@@ -1,0 +1,14 @@
+D:\Programming Projects\DecoderCesar\DecoderCesar\bin\Debug\net8.0\DecoderCeasar.exe
+D:\Programming Projects\DecoderCesar\DecoderCesar\bin\Debug\net8.0\DecoderCeasar.deps.json
+D:\Programming Projects\DecoderCesar\DecoderCesar\bin\Debug\net8.0\DecoderCeasar.runtimeconfig.json
+D:\Programming Projects\DecoderCesar\DecoderCesar\bin\Debug\net8.0\DecoderCeasar.dll
+D:\Programming Projects\DecoderCesar\DecoderCesar\bin\Debug\net8.0\DecoderCeasar.pdb
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\DecoderCeasar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\DecoderCeasar.AssemblyInfoInputs.cache
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\DecoderCeasar.AssemblyInfo.cs
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\DecoderCeasar.csproj.CoreCompileInputs.cache
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\DecoderCeasar.dll
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\refint\DecoderCeasar.dll
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\DecoderCeasar.pdb
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\DecoderCeasar.genruntimeconfig.cache
+D:\Programming Projects\DecoderCesar\DecoderCesar\obj\Debug\net8.0\ref\DecoderCeasar.dll
